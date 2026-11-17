@@ -27,6 +27,14 @@
      "detail": "Select your player, then Inspector › Motion AI › Turn on Motion AI, and tick carries in its motion_ai component. Natural starts, stops and turns, feet planted. Or ask your AI: \"let Motion AI carry my player\"."
     },
     {
+     "title": "Web export",
+     "detail": "File › Export Game › Web (browser and phones) makes a folder you can put on any website: 2D and 3D games, packed small. It runs Arcwright's web packer, which needs Python 3 (the export tells you how to install it if it's missing)."
+    },
+    {
+     "title": "New faces and people",
+     "detail": "The human kit now ships inside Arcwright. Ask your AI for a person (\"a 40-year-old pilot, short grey hair\"): the Face Forger makes a brand-new face, and clothes are fitted to the body."
+    },
+    {
      "title": "Teach a character a walk from one video",
      "detail": "Inspector › Motion AI › Make a style from a video…: a side-on clip of one person walking, whole body in view, still camera. A heavy brute, anyone."
     },
@@ -109,6 +117,23 @@
    ]
   },
   {
+   "id": "people",
+   "kind": "compare",
+   "eyebrow": "People (new in Beta 3: the human kit ships)",
+   "title": "New faces with the Face Forger",
+   "body": "Describe a person (age, build, hair) and the Face Forger makes a brand-new face by blending a library of reference people, then adds age and weight. Clothes are then tailored to the body in the same editor.",
+   "images": [
+    {
+     "file": "people_pilot.jpg",
+     "caption": "A pilot"
+    },
+    {
+     "file": "people_co.jpg",
+     "caption": "A commanding officer, briefing his squadron"
+    }
+   ]
+  },
+  {
    "id": "motionai",
    "kind": "steps",
    "eyebrow": "Motion AI",
@@ -165,7 +190,6 @@
       "Cloth and flowing clothes",
       "Clothes fitting people; arms and legs passing through things",
       "Animation: sprints and very sharp turns with Motion AI, sitting, standing up",
-      "Making new faces and people (the human kit isn't in this download yet)",
       "Vehicles built from scratch",
       "Whole games from one sentence: build them step by step with your AI instead"
      ]
