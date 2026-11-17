@@ -1,0 +1,247 @@
+{
+ "version": 4,
+ "updated": "2026-11-17",
+ "pages": [
+  {
+   "id": "welcome",
+   "kind": "hero",
+   "eyebrow": "Beta",
+   "title": "Welcome to Arcwright",
+   "body": "A game engine built for AI. Your AI app, or Arcwright's built-in AI, builds in this editor while you watch every step. You can stop it, change it, or undo it at any time.",
+   "images": [
+    {
+     "file": "passageway_built.jpg",
+     "caption": "A ship's passageway, forged by an AI in this editor"
+    }
+   ]
+  },
+  {
+   "id": "beta3",
+   "kind": "steps",
+   "eyebrow": "New in Beta 3 (0.5.0)",
+   "title": "What's new, and where to find it",
+   "body": "Everything below is in the editor you just opened. Your AI app can do each of these for you too: just ask.",
+   "steps": [
+    {
+     "title": "Your player moves like a real person",
+     "detail": "Select your player, then Inspector › Motion AI › Turn on Motion AI, and tick carries in its motion_ai component. Natural starts, stops and turns, feet planted. Or ask your AI: \"let Motion AI carry my player\"."
+    },
+    {
+     "title": "Teach a character a walk from one video",
+     "detail": "Inspector › Motion AI › Make a style from a video…: a side-on clip of one person walking, whole body in view, still camera. A heavy brute, anyone."
+    },
+    {
+     "title": "Exports are checked before they ship",
+     "detail": "File › Export Game checks every file it would ship. Anything too big for its platform is named, with the exact fix, so your game stays small."
+    },
+    {
+     "title": "24 military props to forge",
+     "detail": "Open a sample, then Assets › Forge › Military: ammo cans, crates, cots, a stretcher, a radio, sandbag walls, work lamps and more. Ask your AI to forge one (\"forge Military/ammo_can\") and change the recipe to make it yours."
+    },
+    {
+     "title": "Smooth starts and steady frame rates",
+     "detail": "Exported games no longer freeze on first launch. Ask your AI to set your game's target frame rate (60 for a fast game); it holds a steady 30 when a computer can't keep up."
+    },
+    {
+     "title": "Royalty-free to $1 million",
+     "detail": "Your game is royalty-free until it earns $1 million, then 5% of the revenue above that. Games made with earlier versions keep their old terms."
+    }
+   ],
+   "images": [
+    {
+     "file": "beta3_props.jpg",
+     "caption": "The 24 military props, each built by the Forge from a recipe"
+    }
+   ]
+  },
+  {
+   "id": "watch",
+   "kind": "hero",
+   "eyebrow": "Watch it build",
+   "title": "Everything happens on screen",
+   "body": "Follow AI keeps the camera on the work, and a caption says what the AI is doing. Drag the view and you're in control; Follow AI stays off until you turn it back on. Every change lands in History, where you can undo it.",
+   "images": [
+    {
+     "file": "watch_build.jpg",
+     "caption": "An AI placing a ready room's chairs, row by row"
+    }
+   ]
+  },
+  {
+   "id": "forge",
+   "kind": "compare",
+   "eyebrow": "The Forge",
+   "title": "From a picture to a real 3D model",
+   "body": "The AI writes a recipe (the shapes, sizes and materials) and the Forge builds it in stages you can watch: block out, add parts, round the edges, paint, then age it. Recipes are plain code in the Workshop panel, so you can read and edit them too.",
+   "images": [
+    {
+     "file": "passageway_reference.jpg",
+     "caption": "The reference picture"
+    },
+    {
+     "file": "passageway_built.jpg",
+     "caption": "Built in Arcwright"
+    }
+   ]
+  },
+  {
+   "id": "references",
+   "kind": "tips",
+   "eyebrow": "Best results",
+   "title": "Give it a reference picture",
+   "body": "A good picture is the biggest quality boost you can give. The AI matches its shapes, colours and wear.",
+   "tips": [
+    "A clear picture of the object on a plain background",
+    "Front and side views if you can",
+    "Say its real size: \"a chair, 1 m tall\"",
+    "One object per picture",
+    "For a room or a place, an eye-level photo"
+   ],
+   "images": [
+    {
+     "file": "forge_reference_input_room.jpg",
+     "caption": "Your reference"
+    },
+    {
+     "file": "forge_room_final.jpg",
+     "caption": "The result"
+    }
+   ]
+  },
+  {
+   "id": "motionai",
+   "kind": "steps",
+   "eyebrow": "Motion AI",
+   "title": "Motion AI: walks, runs and your player, made live",
+   "body": "A motion AI (NVIDIA MotionBricks) makes a 3D character's walk, jog and run step by step as it moves, instead of replaying the same clips. New in Beta 3: it can drive the character you control, with natural starts, stops and turns. Sprints still use the clips for now.",
+   "steps": [
+    {
+     "title": "Turn it on",
+     "detail": "Select a 3D character and press Turn on Motion AI in the Inspector's Motion AI section. Press Play and walk or run."
+    },
+    {
+     "title": "Let it carry your player",
+     "detail": "On your player, also tick carries in its motion_ai component (Inspector): the motion AI then moves the body itself, so the feet stay planted."
+    },
+    {
+     "title": "Tune the walk",
+     "detail": "Live in Play: presets relaxed / brisk / heavy, plus lean, hip height (lower), stride, arm swing, step width, speed range."
+    },
+    {
+     "title": "Teach it a new walk",
+     "detail": "Make a style from a video… learns from a side-on video of one person walking, whole body in view, still camera."
+    },
+    {
+     "title": "Or ask your AI",
+     "detail": "\"Make this character walk naturally\" does the same."
+    }
+   ]
+  },
+  {
+   "id": "honest",
+   "kind": "status",
+   "eyebrow": "Where it stands",
+   "title": "What's strong today, and what we're improving",
+   "body": "Arcwright is in Beta. We'd rather you know the edges up front. Every update moves something from the right column to the left.",
+   "columns": [
+    {
+     "title": "Strong today",
+     "tone": "good",
+     "items": [
+      "Rooms, buildings and interiors with real detail",
+      "Furniture, machines, props and weapons",
+      "Lighting, materials and wear",
+      "Cinematics: cameras, voices, lip sync, music",
+      "2D games: art, animation and levels",
+      "Driving, flying and shooting basics",
+      "Motion AI: walks, runs and your own player made live",
+      "Exports checked before they ship: small, complete games"
+     ]
+    },
+    {
+     "title": "Still improving",
+     "tone": "work",
+     "items": [
+      "Cloth and flowing clothes",
+      "Clothes fitting people; arms and legs passing through things",
+      "Animation: sprints and very sharp turns with Motion AI, sitting, standing up",
+      "Making new faces and people (the human kit isn't in this download yet)",
+      "Vehicles built from scratch",
+      "Whole games from one sentence: build them step by step with your AI instead"
+     ]
+    }
+   ],
+   "images": [
+    {
+     "file": "limit_cloth.jpg",
+     "caption": "A gown that came out as a cone"
+    },
+    {
+     "file": "limit_fit.jpg",
+     "caption": "An arm passing through a vest"
+    },
+    {
+     "file": "limit_vehicle.jpg",
+     "caption": "An early boat made of blocks"
+    },
+    {
+     "file": "limit_blockout.jpg",
+     "caption": "A shooting range still in blockout"
+    }
+   ]
+  },
+  {
+   "id": "reports",
+   "kind": "steps",
+   "eyebrow": "Help us improve",
+   "title": "Your reports make it better",
+   "body": "We fix what people tell us about. The most useful reports show the gap between what you wanted and what you got.",
+   "steps": [
+    {
+     "title": "Send feedback",
+     "detail": "Help › Send Feedback. Say what you asked for and what came out. You can attach a picture of the Arcwright window."
+    },
+    {
+     "title": "Show what you wanted",
+     "detail": "Include your reference picture, or name the real object. \"It should look like this\" is gold."
+    },
+    {
+     "title": "Let crash reports through",
+     "detail": "If Arcwright closes unexpectedly, it asks once whether to send a report. You see everything in it first; your name and home folder are removed."
+    },
+    {
+     "title": "Ask your AI to write it up",
+     "detail": "Your AI knows which tool it used and what went wrong. Ask it for a short summary and paste it into your feedback."
+    }
+   ]
+  },
+  {
+   "id": "start",
+   "kind": "start",
+   "eyebrow": "Let's go",
+   "title": "Start building",
+   "body": "Connect the AI app you already use, or take a two-minute tour of the editor first.",
+   "images": [
+    {
+     "file": "world_floating_island.jpg",
+     "caption": ""
+    }
+   ],
+   "buttons": [
+    {
+     "title": "Connect your AI app",
+     "action": "connect",
+     "primary": true
+    },
+    {
+     "title": "Take the editor tour",
+     "action": "tour"
+    },
+    {
+     "title": "Send feedback",
+     "action": "feedback"
+    }
+   ]
+  }
+ ]
+}
